@@ -1,0 +1,105 @@
+2024-11-20 19:45:33 [main] [STDOUT] I VIAaaS 0.4.19+2669945
+2024-11-20 19:45:34 [Via-Mappingloader-0] [ViaVersion] I Loading block connection mappings ...
+2024-11-20 19:45:35 [Via-Mappingloader-0] [ViaVersion] I Using FastUtil Long2ObjectOpenHashMap for block connections
+2024-11-20 19:45:35 [DefaultDispatcher-worker-2] [VIAaaS] I VIAaaS seems up to date.
+2024-11-20 19:45:35 [main] [ViaRewind] I Registering protocols...
+2024-11-20 19:45:35 [main] [ViaBackwards] I Loading translations...
+2024-11-20 19:45:35 [main] [ViaBackwards] I Registering protocols...
+2024-11-20 19:45:36 [main] [ViaVersion] I ViaVersion detected lowest supported version by the proxy: 1.7.2-1.7.5 (4)
+2024-11-20 19:45:36 [main] [ViaVersion] I Highest supported version by the proxy: 1.21.2-1.21.3 (768)
+2024-11-20 19:45:36 [main] [Application] I Autoreload is disabled because the development mode is off.
+2024-11-20 19:45:36 [main] [Application] I Application started in 0.205 seconds.
+2024-11-20 19:45:37 [DefaultDispatcher-worker-2] [Application] I Responding at https://0.0.0.0:25543
+2024-11-20 19:45:37 [main] [VIAaaS] I Using compression: libdeflate (Linux x86_64), crypto: OpenSSL 1.1.x (Linux x86_64)
+2024-11-20 19:45:37 [main] [VIAaaS] I Binded minecraft into /[0:0:0:0:0:0:0:0%0]:25565
+2024-11-20 19:45:37 [main] [VIAaaS] I Application started in 5.747s
+2024-11-20 19:45:37 [Via-1] [ViaVersion] I Finished mapping loading, shutting down loader executor.
+2024-11-20 19:45:37 [Via-0] [ViaVersion] I You are running a development version of the plugin, please report any bugs to GitHub.
+2024-11-20 19:53:07 [eventLoopGroupProxy-5-1] [io.netty.handler.ssl.ApplicationProtocolNegotiationHandler] W [id: 0x90b4aa01, L:/[0:0:0:0:0:0:0:1%0]:25543 ! R:/[0:0:0:0:0:0:0:1%0]:34462] TLS handshake failed:
+io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f20485454502f312e310d0a486f73743a206c6f63616c686f73743a32353534330d0a557365722d4167656e743a204d6f7a696c6c612f352e3020285831313b2043724f53207838365f36342031343534312e302e3029204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3132392e302e302e30205361666172692f3533372e33360d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174652c2062722c207a7374640d0a4163636570742d4c616e67756167653a20656e2d55532c656e3b713d302e390d0a43616368652d436f6e74726f6c3a206e6f2d63616368650d0a4f726967696e3a206e756c6c0d0a507261676d613a206e6f2d63616368650d0a582d526571756573742d49443a2030623964396235346637396337333730363033653332633239633031653261380d0a582d5265616c2d49503a2031302e3234302e332e3139360d0a582d466f727761726465642d506f72743a203434330d0a582d466f727761726465642d536368656d653a2068747470730d0a582d4f726967696e616c2d5552493a202f0d0a582d536368656d653a2068747470730d0a5365632d576562536f636b65742d56657273696f6e3a2031330d0a5365632d576562536f636b65742d4b65793a20592f426f7252634a513254754863676c7759395650413d3d0d0a5365632d576562536f636b65742d457874656e73696f6e733a207065726d6573736167652d6465666c6174653b20636c69656e745f6d61785f77696e646f775f626974730d0a582d4f726967696e616c2d50726f746f3a2068747470730d0a582d466f727761726465642d50726f746f3a2068747470730d0a582d466f727761726465642d486f73743a206f70756c656e742d73706163652d6669657374612d7835353639767234367271667778392d32353534332e6170702e6769746875622e6465760d0a582d466f727761726465642d466f723a2031302e3234302e332e3139360d0a50726f78792d436f6e6e656374696f6e3a204b6565702d416c6976650d0a436f6e6e656374696f6e3a20557067726164650d0a557067726164653a20776562736f636b65740d0a0d0a
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1312) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1385) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:530) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:469) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1407) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda$1$lambda$0(NettyApplicationEngine.kt:296) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-20 19:53:07 [eventLoopGroupProxy-5-2] [io.netty.handler.ssl.ApplicationProtocolNegotiationHandler] W [id: 0x0a90c876, L:/[0:0:0:0:0:0:0:1%0]:25543 ! R:/[0:0:0:0:0:0:0:1%0]:34472] TLS handshake failed:
+io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f20485454502f312e310d0a486f73743a206c6f63616c686f73743a32353534330d0a557365722d4167656e743a204d6f7a696c6c612f352e3020285831313b2043724f53207838365f36342031343534312e302e3029204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3132392e302e302e30205361666172692f3533372e33360d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174652c2062722c207a7374640d0a4163636570742d4c616e67756167653a20656e2d55532c656e3b713d302e390d0a43616368652d436f6e74726f6c3a206e6f2d63616368650d0a4f726967696e3a206e756c6c0d0a507261676d613a206e6f2d63616368650d0a582d526571756573742d49443a2030623964396235346637396337333730363033653332633239633031653261380d0a582d5265616c2d49503a2031302e3234302e332e3139360d0a582d466f727761726465642d506f72743a203434330d0a582d466f727761726465642d536368656d653a2068747470730d0a582d4f726967696e616c2d5552493a202f0d0a582d536368656d653a2068747470730d0a5365632d576562536f636b65742d56657273696f6e3a2031330d0a5365632d576562536f636b65742d4b65793a20592f426f7252634a513254754863676c7759395650413d3d0d0a5365632d576562536f636b65742d457874656e73696f6e733a207065726d6573736167652d6465666c6174653b20636c69656e745f6d61785f77696e646f775f626974730d0a582d4f726967696e616c2d50726f746f3a2068747470730d0a582d466f727761726465642d50726f746f3a2068747470730d0a582d466f727761726465642d486f73743a206f70756c656e742d73706163652d6669657374612d7835353639767234367271667778392d32353534332e6170702e6769746875622e6465760d0a582d466f727761726465642d466f723a2031302e3234302e332e3139360d0a50726f78792d436f6e6e656374696f6e3a204b6565702d416c6976650d0a436f6e6e656374696f6e3a20557067726164650d0a557067726164653a20776562736f636b65740d0a0d0a
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1312) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1385) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:530) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:469) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1407) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda$1$lambda$0(NettyApplicationEngine.kt:296) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-20 19:53:07 [eventLoopGroupProxy-5-1] [io.netty.handler.ssl.ApplicationProtocolNegotiationHandler] W [id: 0x616c9a8b, L:/[0:0:0:0:0:0:0:1%0]:25543 ! R:/[0:0:0:0:0:0:0:1%0]:34486] TLS handshake failed:
+io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f20485454502f312e310d0a486f73743a206c6f63616c686f73743a32353534330d0a557365722d4167656e743a204d6f7a696c6c612f352e3020285831313b2043724f53207838365f36342031343534312e302e3029204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3132392e302e302e30205361666172692f3533372e33360d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174652c2062722c207a7374640d0a4163636570742d4c616e67756167653a20656e2d55532c656e3b713d302e390d0a43616368652d436f6e74726f6c3a206e6f2d63616368650d0a4f726967696e3a206e756c6c0d0a507261676d613a206e6f2d63616368650d0a582d526571756573742d49443a2030623964396235346637396337333730363033653332633239633031653261380d0a582d5265616c2d49503a2031302e3234302e332e3139360d0a582d466f727761726465642d506f72743a203434330d0a582d466f727761726465642d536368656d653a2068747470730d0a582d4f726967696e616c2d5552493a202f0d0a582d536368656d653a2068747470730d0a5365632d576562536f636b65742d56657273696f6e3a2031330d0a5365632d576562536f636b65742d4b65793a20592f426f7252634a513254754863676c7759395650413d3d0d0a5365632d576562536f636b65742d457874656e73696f6e733a207065726d6573736167652d6465666c6174653b20636c69656e745f6d61785f77696e646f775f626974730d0a582d4f726967696e616c2d50726f746f3a2068747470730d0a582d466f727761726465642d50726f746f3a2068747470730d0a582d466f727761726465642d486f73743a206f70756c656e742d73706163652d6669657374612d7835353639767234367271667778392d32353534332e6170702e6769746875622e6465760d0a582d466f727761726465642d466f723a2031302e3234302e332e3139360d0a50726f78792d436f6e6e656374696f6e3a204b6565702d416c6976650d0a436f6e6e656374696f6e3a20557067726164650d0a557067726164653a20776562736f636b65740d0a0d0a
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1312) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1385) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:530) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:469) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1407) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda$1$lambda$0(NettyApplicationEngine.kt:296) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-20 19:53:07 [eventLoopGroupProxy-5-2] [io.netty.handler.ssl.ApplicationProtocolNegotiationHandler] W [id: 0xd0790f8f, L:/[0:0:0:0:0:0:0:1%0]:25543 ! R:/[0:0:0:0:0:0:0:1%0]:34490] TLS handshake failed:
+io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f20485454502f312e310d0a486f73743a206c6f63616c686f73743a32353534330d0a557365722d4167656e743a204d6f7a696c6c612f352e3020285831313b2043724f53207838365f36342031343534312e302e3029204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3132392e302e302e30205361666172692f3533372e33360d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174652c2062722c207a7374640d0a4163636570742d4c616e67756167653a20656e2d55532c656e3b713d302e390d0a43616368652d436f6e74726f6c3a206e6f2d63616368650d0a4f726967696e3a206e756c6c0d0a507261676d613a206e6f2d63616368650d0a582d526571756573742d49443a2030623964396235346637396337333730363033653332633239633031653261380d0a582d5265616c2d49503a2031302e3234302e332e3139360d0a582d466f727761726465642d506f72743a203434330d0a582d466f727761726465642d536368656d653a2068747470730d0a582d4f726967696e616c2d5552493a202f0d0a582d536368656d653a2068747470730d0a5365632d576562536f636b65742d56657273696f6e3a2031330d0a5365632d576562536f636b65742d4b65793a20592f426f7252634a513254754863676c7759395650413d3d0d0a5365632d576562536f636b65742d457874656e73696f6e733a207065726d6573736167652d6465666c6174653b20636c69656e745f6d61785f77696e646f775f626974730d0a582d4f726967696e616c2d50726f746f3a2068747470730d0a582d466f727761726465642d50726f746f3a2068747470730d0a582d466f727761726465642d486f73743a206f70756c656e742d73706163652d6669657374612d7835353639767234367271667778392d32353534332e6170702e6769746875622e6465760d0a582d466f727761726465642d466f723a2031302e3234302e332e3139360d0a50726f78792d436f6e6e656374696f6e3a204b6565702d416c6976650d0a436f6e6e656374696f6e3a20557067726164650d0a557067726164653a20776562736f636b65740d0a0d0a
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1312) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1385) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:530) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:469) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1407) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda$1$lambda$0(NettyApplicationEngine.kt:296) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[VIAaaS-0.4.19+2669945-all.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
